@@ -43,7 +43,7 @@ else
 fi
 
 # Build the image with the new tag
-docker build -f Dockerfile.prod -t $IMAGE_REPO:$NEW_TAG .
+docker build -f Dockerfile -t $IMAGE_REPO:$NEW_TAG .
 
 # Push the new image to Docker Hub
 docker push $IMAGE_REPO:$NEW_TAG
