@@ -17,5 +17,13 @@ public class Main {
         System.out.println("Cost: " + suger.cost());
 
         //lets initially add the image with current settings to the docker hub
+        //lets do some changes
+        //lets add a new decorator
+
+        ConnemonDecorator cinnamon = new ConnemonDecorator(coffee);
+        System.out.println(cinnamon.description());
+        System.out.println("Cost: " + cinnamon.cost());
+
+        //okay now we have added a new decorator lets consider this as a patch and commit
     }
 }
