@@ -1,6 +1,6 @@
 # Docker automatic push with new tags
 
-## Lets automate the docker image push funtonality. Booooaaah!!!
+## Lets automate the docker image push funtionality. Booooaaah!!!
 #### This repo contains the decorator design pattern in java. Main focus in this projectis to demonstrate automation functionality of docckre image creation and pushing to the docker hub creating a new tag.
 ### Tag consits of 3 parts
 #### Tag: major.minor.patch
