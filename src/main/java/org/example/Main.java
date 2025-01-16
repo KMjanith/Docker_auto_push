@@ -24,7 +24,5 @@ public class Main {
         System.out.println(cinnamon.description());
         System.out.println("Cost: " + cinnamon.cost());
 
-        //okay now we have added a new decorator lets consider this as a patch and commit
-        //lets push this comment as a minor version
     }
 }
