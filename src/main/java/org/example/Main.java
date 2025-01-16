@@ -15,5 +15,7 @@ public class Main {
         SugerDecorator suger = new SugerDecorator(coffee);
         System.out.println(suger.description());
         System.out.println("Cost: " + suger.cost());
+
+        //lets initially add the image with current settings to the docker hub
     }
 }
