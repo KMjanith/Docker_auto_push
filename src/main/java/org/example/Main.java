@@ -24,5 +24,7 @@ public class Main {
         System.out.println(cinnamon.description());
         System.out.println("Cost: " + cinnamon.cost());
 
+        //added some comments
+
     }
 }
